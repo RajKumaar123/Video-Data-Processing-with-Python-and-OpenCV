@@ -31,6 +31,30 @@ The system reads a video frame-by-frame, applies bounding boxes and category lab
 - **Jupyter integration** enables easy demonstration and validation  
 - **Simple architecture** — no deep learning or heavy models used; ready for fast prototyping or integration with future object detection systems  
 
+## Folder Structures
+
+Video-Data-Processing-with-Python-and-OpenCV/
+│
+├── converted_output/               # Folder for storing converted video outputs
+├── kagglehub/                      # Empty placeholder folder (excluded from Git push)
+├── venv/                           # Virtual environment (excluded from Git)
+│
+├── 1_data_preparation_and_colormap.ipynb      # Step 1: Load label data and define color mappings
+├── 2_single_frame_visualization.ipynb         # Step 2: Visualize individual annotated frames
+├── 3_full_video_annotation_export.ipynb       # Step 3: Annotate and export entire video
+│
+├── color_map.pkl                  # Pickled dictionary of category-color mapping
+├── video_labels.pkl               # Pickled label data used for annotations
+│
+├── out_test.mp4                   # Final annotated video output (MP4)
+├── video_animation.gif            # GIF for sample visualization of annotated frames
+│
+├── requirements.txt               # List of required Python packages
+├── .gitignore                     # Files and folders to exclude from Git
+├── README.md                      # Project documentation
+
+
+
 ## Technologies Used
 
 - Python  

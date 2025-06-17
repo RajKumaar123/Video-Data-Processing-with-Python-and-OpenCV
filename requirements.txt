@@ -5,5 +5,4 @@ pandas
 numpy
 tqdm
 ipython
-ffmpeg-python  # Optional if using ffmpeg programmatically in Python
 kagglehub
